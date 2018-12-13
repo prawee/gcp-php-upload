@@ -1,0 +1,12 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+  - url: /.*
+    script: index.php
+
+env_variables:
+  GOOGLE_APPLICATION_CREDENTIALS: <credentails.json>
+  APP_PROJECT_ID: <project-id>
+  APP_BUCKET_NAME: <bucket-name>

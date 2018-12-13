@@ -1,0 +1,13 @@
+{
+    "name": "pod/php-gcp",
+    "authors": [
+        {
+            "name": "Prawee Wongsa",
+            "email": "prawee.w@integra8t.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.5",
+        "google/cloud-storage": "^1.10"
+    }
+}
